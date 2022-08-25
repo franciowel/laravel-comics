@@ -10,16 +10,16 @@
     <div class="container">
         <div class="flex">
             <img src="{{ asset('img/dc-logo.png') }}" alt="logo">
-            <span>CHARACTERS</span>
-            <span class="active">COMICS</span>
-            <span>MOVIES</span>
-            <span>TV</span>
-            <span>GAMES</span>
-            <span>COLLECTIBLES</span>
-            <span>VIDEOS</span>
-            <span>FANS</span>
-            <span>NEWS</span>
-            <span>SHOP&DownArrow;</span>
+            <a href="">CHARACTERS</a>
+            <a href="" class="active">COMICS</a>
+            <a href="">MOVIES</a>
+            <a href="">TV</a>
+            <a href="">GAMES</a>
+            <a href="">COLLECTIBLES</a>
+            <a href="">VIDEOS</a>
+            <a href="">FANS</a>
+            <a href="">NEWS</a>
+            <a href="">SHOP&DownArrow;</a>
         </div>
     </div>
 
