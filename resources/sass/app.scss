@@ -4,10 +4,6 @@
 
 @import 'partials/_jumbotron';
 
-@import 'partials/_footer';
-
-
-
 //RESET
 * {
     padding: 0;
@@ -87,4 +83,95 @@ main {
 
 .section_contain{
     padding: 20px 0;
+}
+
+ul{
+    li{
+        list-style: none;
+    }
+}
+
+// COMIC SECTION
+.poster-blue {
+    background-color: #2481f4;
+    height: 150px;
+    position: relative;
+    .single-p {
+        position: absolute;
+        top: -225px;
+        left: 300px;
+    }
+}
+.col1 {
+    width: 69%;
+}
+.col2 {
+    width: 30%;
+}
+.price {
+    background-color: #5bba60;
+    padding: 10px;
+    margin-bottom: 30px;
+    .price-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.padding {
+    padding: 40px 100px;
+}
+h1 {
+    padding: 40px 0;
+    color: #2481f4;
+    font-weight: bold;
+}
+.white {
+    color: white;
+}
+.grey {
+    color: #bdfda3;
+}
+.bet {
+    justify-content: space-between;
+}
+.col {
+    width: 50%;
+}
+.sect {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 15px 20px;
+}
+
+// FOOTER
+footer {
+    background-image: url('../../public/img/footer-bg.jpg');
+    color: white;
+    height: 450px;
+    overflow: hidden;
+}
+.title {
+    font-size: 25px;
+    line-height: 50px;
+}
+li {
+    color: grey;
+    padding: 2px;
+    list-style: none;
+}
+.footer-links {
+    padding: 10px;
+    margin: 0 25px;
+}
+.logo {
+    width: 40%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.back {
+    .container {
+        position: relative;
+    }
 }

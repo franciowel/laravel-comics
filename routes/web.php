@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('home');
 });
 
+// COMICS
 Route::get('/', function () {
     $comics_array = config('comics');
 
@@ -31,4 +32,22 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+// SINGLE COMIC
+Route::get('/comics/{id}', function ($id) {
+    $comics_array = config('comics');
+
+    $comics_data = [];
+
+    foreach($comics_array as $comic) {
+        if($comic['id'] == $id) {
+            $comics_data = $comic;
+        }
+    }
+
+    $data = [
+        'current_comic' => $comics_data
+    ];
+    return view('singleproduct', $data);
+})->name('singleproduct');
 

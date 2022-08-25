@@ -13,9 +13,9 @@
 
     @include('partials.jumbotron')
 
-    @include('partials.products')
+    @yield('mainproducts')
 
-    @include('partials.section')
+    @yield('bluesection')
 
     @include('partials.footer')
 
