@@ -1,0 +1,31 @@
+// FOOTER
+footer {
+    background-image: url('../../public/img/footer-bg.jpg');
+    color: white;
+    height: 450px;
+    overflow: hidden;
+}
+.title {
+    font-size: 25px;
+    line-height: 50px;
+}
+li {
+    color: grey;
+    padding: 2px;
+}
+.footer-links {
+    padding: 10px;
+    margin: 0 25px;
+}
+.logo {
+    width: 40%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.back {
+    .container {
+        position: relative;
+    }
+}
