@@ -15,7 +15,9 @@
 
     @include('partials.products')
 
-    {{-- @include('partials.section') --}}
+    @include('partials.section')
+
+    @include('partials.footer')
 
 </body>
 </html>

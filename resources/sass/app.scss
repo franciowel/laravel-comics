@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+@import 'partials/_header';
+
+@import 'partials/_jumbotron';
+
+
+
 //RESET
 * {
     padding: 0;
@@ -24,36 +30,7 @@ body{
     }
 }
 
-// HEADER
-.top-header {
-    background-color: #2481f4;
-    padding: 5px 0;
-    color: white;
-    text-align: end;
-    .container {
-        span {
-            padding: 5px 10px;
-        }
-    }
-}
-
-header {
-    img {
-        padding: 15px 0;
-    }
-    .flex {
-        justify-content: space-between;
-        align-items: center;
-    }
-}
-
-// JUMBOTRON
-.jumbo {
-    height: 500px;
-    background-color: #1c1c1c;
-    overflow: hidden;
-}
-
+// MAIN
 main {
     background-color: #1c1c1c;
     padding-top: 70px;
@@ -105,6 +82,11 @@ main {
         }
     }
 }
+
+.section_contain{
+    padding: 20px 0;
+}
+
 footer {
     background-image: url('../../public/img/footer-bg.jpg');
     color: white;

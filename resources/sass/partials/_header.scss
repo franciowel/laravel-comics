@@ -1,0 +1,21 @@
+.top-header {
+    background-color: #2481f4;
+    padding: 5px 0;
+    color: white;
+    text-align: end;
+    .container {
+        span {
+            padding: 5px 10px;
+        }
+    }
+}
+
+header {
+    img {
+        padding: 15px 0;
+    }
+    .flex {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
